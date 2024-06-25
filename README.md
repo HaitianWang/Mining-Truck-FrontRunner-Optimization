@@ -47,7 +47,6 @@ Drawing road curves, especially through T-intersections, is time-consuming for c
 ### Impact on Iron Mining Operations
 
 Inefficiencies in road curve drawing can lead to significant reductions in throughput, increased fuel costs, and higher maintenance costs, potentially resulting in millions of dollars in losses annually.
-![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/28a88d5d-eff6-4fe4-b890-83fbbafa4031)
 
 
 ## Objectives and Tasks
