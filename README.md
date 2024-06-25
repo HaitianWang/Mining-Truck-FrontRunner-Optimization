@@ -59,9 +59,6 @@ The hackathon focuses on three main tasks:
 ### Model Development
 
 Develop a model to classify good and bad road curves using a loss function model that considers the following parameters:
-- Path length
-- Time to traverse the intersection
-- Curvature radius
 ![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/e12eb85c-4884-43ef-ba2d-ba93c05ce389)
 
 
