@@ -65,12 +65,21 @@ Develop a model to classify good and bad road curves using a loss function model
 - Path length
 - Time to traverse the intersection
 - Curvature radius
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/ab5db75a-a53a-4d25-ba32-d81eb9125333)
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/7ba65cbd-6b55-4c3d-9d7a-2f92c4d7d460)
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/df923bc7-17d5-4496-a766-99a8a4c204ca)
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/4de62153-0291-4ee6-8196-1f4113492014)
+
+
 
 ### Optimizer Development
 
 Create an optimizer model using a differential evolution algorithm to generate the best road curves at intersections while adhering to defined constraints:
 - Road curves must remain within intersection boundaries.
 - Curves must be a certain distance from intersection edges and adjacent curves.
+
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/b48736c3-8ce0-43a0-bec7-49fb7179b105)
+
 
 ### Technology Integration
 
@@ -84,6 +93,8 @@ Define parameter ranges and constraints based on historical data analysis:
 - Path Length: (111.65 meters, 407.63 meters)
 - Time Difference: (21.45 seconds, 90.17 seconds)
 - Curvature Radius: (0 meters, 196.45 meters)
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/27af1e04-807d-4438-91f6-3d5e0d1c3a16)
+
 
 ### Parameter Weight Analysis
 
@@ -101,6 +112,8 @@ The optimization model uses a differential evolution algorithm to find the optim
 Develop a front-end application to display the optimized road curves and facilitate integration with the FrontRunner system. The application includes:
 - A user interface for controllers to view and adjust road curves
 - Visualization tools to show the impact of the optimized curves
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/e43813a1-e283-4242-8e1c-e3a8c22715bc)
+
 
 ## Usage
 
