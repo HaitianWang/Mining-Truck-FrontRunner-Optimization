@@ -1,1 +1,98 @@
-# Hackathon
+Project Description
+Role of Haul Trucks
+Rio Tinto uses the FrontRunner software to manage autonomous haul truck fleets that transport iron ore through a complex network of roads from pits to the ore processing plant.
+
+Use of FrontRunner Software
+FrontRunner enables remote pit controllers to manually draw the mine site road networks that the haul trucks travel.
+
+Difficulties with FrontRunner
+Drawing road curves, especially through T-intersections, is time-consuming for controllers. Poorly drawn road curves can increase truck cycle time, reduce truck productivity, and increase operational costs.
+
+Impact on Iron Mining Operations
+Inefficiencies in road curve drawing can lead to significant reductions in throughput, increased fuel costs, and higher maintenance costs, potentially resulting in millions of dollars in losses annually.
+
+Objectives and Tasks
+The hackathon focuses on three main tasks:
+
+Build the Model: Develop a model to determine what constitutes a good or bad curve based on the provided dataset.
+Build the Optimizer: Use data modeling techniques to optimize road curve generation at intersections, thereby reducing cycle time.
+Build the Tech: Create an application/system that integrates with Rio Tinto's FrontRunner system.
+Solution Approach
+Model Development
+Develop a model to classify good and bad road curves using a loss function model that considers the following parameters:
+
+Path length
+Time to traverse the intersection
+Curvature radius
+Optimizer Development
+Create an optimizer model using a differential evolution algorithm to generate the best road curves at intersections while adhering to defined constraints:
+
+Road curves must remain within intersection boundaries.
+Curves must be a certain distance from intersection edges and adjacent curves.
+Technology Integration
+Develop a front-end application using HTML and JavaScript to visualize and integrate the optimized road curves with the FrontRunner system.
+
+Data Analysis
+Parameters and Constraints
+Define parameter ranges and constraints based on historical data analysis:
+
+Path Length: (111.65 meters, 407.63 meters)
+Time Difference: (21.45 seconds, 90.17 seconds)
+Curvature Radius: (0 meters, 196.45 meters)
+Parameter Weight Analysis
+Assign weights to parameters based on their impact on efficiency and safety:
+
+Transport Efficiency Priority: Path Length (0.4), Time Difference (0.4), Curvature Radius (0.2)
+Vehicle Stability Priority: Path Length (0.3), Time Difference (0.3), Curvature Radius (0.4)
+Balanced Consideration: Path Length (0.33), Time Difference (0.33), Curvature Radius (0.34)
+Optimization Model
+The optimization model uses a differential evolution algorithm to find the optimal road curve within the defined constraints. The model evaluates the quality of each path based on a weighted loss function and iteratively improves the path to minimize the loss.
+
+Frontend Development
+Develop a front-end application to display the optimized road curves and facilitate integration with the FrontRunner system. The application includes:
+
+A user interface for controllers to view and adjust road curves
+Visualization tools to show the impact of the optimized curves
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/rio-tinto-frontrunner-optimization.git
+cd rio-tinto-frontrunner-optimization
+Install the required dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the application:
+
+bash
+Copy code
+python app.py
+Usage
+Open the application in your web browser.
+Upload the dataset files (Intersections.csv and Truck_Movements.csv).
+View the optimized road curves and adjust as needed using the provided interface.
+Save and export the optimized curves for integration with the FrontRunner system.
+Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+Fork the repository.
+Create a new branch:
+bash
+Copy code
+git checkout -b feature-branch
+Make your changes and commit them:
+bash
+Copy code
+git commit -m "Description of changes"
+Push to the branch:
+bash
+Copy code
+git push origin feature-branch
+Create a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
