@@ -34,6 +34,7 @@ Rio Tinto uses the FrontRunner software to manage autonomous haul truck fleets t
 ### Use of FrontRunner Software
 
 FrontRunner enables remote pit controllers to manually draw the mine site road networks that the haul trucks travel.
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/44a56885-0e63-4313-995f-7d2deb5db5ab)
 
 ### Difficulties with FrontRunner
 
