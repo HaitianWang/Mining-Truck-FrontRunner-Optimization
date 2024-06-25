@@ -30,6 +30,8 @@ This project focuses on optimizing the use of Rio Tinto's FrontRunner software f
 ### Role of Haul Trucks
 
 Rio Tinto uses the FrontRunner software to manage autonomous haul truck fleets that transport iron ore through a complex network of roads from pits to the ore processing plant.
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/d7fe6496-61b7-4240-9ab6-58422e27400d)
+
 
 ### Use of FrontRunner Software
 
@@ -39,10 +41,14 @@ FrontRunner enables remote pit controllers to manually draw the mine site road n
 ### Difficulties with FrontRunner
 
 Drawing road curves, especially through T-intersections, is time-consuming for controllers. Poorly drawn road curves can increase truck cycle time, reduce truck productivity, and increase operational costs.
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/bdc122f8-0a2e-46bc-addf-fc15f000c5e4)
+
 
 ### Impact on Iron Mining Operations
 
 Inefficiencies in road curve drawing can lead to significant reductions in throughput, increased fuel costs, and higher maintenance costs, potentially resulting in millions of dollars in losses annually.
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/28a88d5d-eff6-4fe4-b890-83fbbafa4031)
+
 
 ## Objectives and Tasks
 
