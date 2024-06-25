@@ -70,8 +70,7 @@ Develop a model to classify good and bad road curves using a loss function model
 Create an optimizer model using a differential evolution algorithm to generate the best road curves at intersections while adhering to defined constraints:
 - Road curves must remain within intersection boundaries.
 - Curves must be a certain distance from intersection edges and adjacent curves.
-![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/b48736c3-8ce0-43a0-bec7-49fb7179b105)
-
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/ab5db75a-a53a-4d25-ba32-d81eb9125333)
 
 ### Technology Integration
 
@@ -100,7 +99,7 @@ Assign weights to parameters based on their impact on efficiency and safety:
 ## Optimization Model
 
 The optimization model uses a differential evolution algorithm to find the optimal road curve within the defined constraints. The model evaluates the quality of each path based on a weighted loss function and iteratively improves the path to minimize the loss.
-![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/ab5db75a-a53a-4d25-ba32-d81eb9125333)
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/b48736c3-8ce0-43a0-bec7-49fb7179b105)
 
 ## Frontend Development
 
