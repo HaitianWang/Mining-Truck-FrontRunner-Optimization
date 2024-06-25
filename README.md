@@ -21,7 +21,6 @@ This project focuses on optimizing the use of Rio Tinto's FrontRunner software f
   - [Parameter Weight Analysis](#parameter-weight-analysis)
 - [Optimization Model](#optimization-model)
 - [Frontend Development](#frontend-development)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -97,11 +96,13 @@ Develop a front-end application to display the optimized road curves and facilit
 - A user interface for controllers to view and adjust road curves
 - Visualization tools to show the impact of the optimized curves
 
-## Installation
+## Usage
 
-To run this project locally, follow these steps:
+1. Open the application in your web browser.
+2. Upload the dataset files (Intersections.csv and Truck_Movements.csv).
+3. View the optimized road curves and adjust as needed using the provided interface.
+4. Save and export the optimized curves for integration with the FrontRunner system.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/rio-tinto-frontrunner-optimization.git
-   cd rio-tinto-frontrunner-optimization
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
