@@ -1,4 +1,4 @@
-# Rio Tinto FrontRunner Optimization Project
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/9cb9051d-24e7-4361-b93f-e2efa5eb4290)# Rio Tinto FrontRunner Optimization Project
 
 ## Overview
 
@@ -65,19 +65,14 @@ Develop a model to classify good and bad road curves using a loss function model
 - Path length
 - Time to traverse the intersection
 - Curvature radius
-![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/ab5db75a-a53a-4d25-ba32-d81eb9125333)
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/3e59397a-4839-4604-8669-727f944d9633)
 ![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/7ba65cbd-6b55-4c3d-9d7a-2f92c4d7d460)
-![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/df923bc7-17d5-4496-a766-99a8a4c204ca)
-![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/4de62153-0291-4ee6-8196-1f4113492014)
-
-
 
 ### Optimizer Development
 
 Create an optimizer model using a differential evolution algorithm to generate the best road curves at intersections while adhering to defined constraints:
 - Road curves must remain within intersection boundaries.
 - Curves must be a certain distance from intersection edges and adjacent curves.
-
 ![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/b48736c3-8ce0-43a0-bec7-49fb7179b105)
 
 
@@ -93,6 +88,7 @@ Define parameter ranges and constraints based on historical data analysis:
 - Path Length: (111.65 meters, 407.63 meters)
 - Time Difference: (21.45 seconds, 90.17 seconds)
 - Curvature Radius: (0 meters, 196.45 meters)
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/4de62153-0291-4ee6-8196-1f4113492014)
 ![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/27af1e04-807d-4438-91f6-3d5e0d1c3a16)
 
 
@@ -102,10 +98,12 @@ Assign weights to parameters based on their impact on efficiency and safety:
 - Transport Efficiency Priority: Path Length (0.4), Time Difference (0.4), Curvature Radius (0.2)
 - Vehicle Stability Priority: Path Length (0.3), Time Difference (0.3), Curvature Radius (0.4)
 - Balanced Consideration: Path Length (0.33), Time Difference (0.33), Curvature Radius (0.34)
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/df923bc7-17d5-4496-a766-99a8a4c204ca)
 
 ## Optimization Model
 
 The optimization model uses a differential evolution algorithm to find the optimal road curve within the defined constraints. The model evaluates the quality of each path based on a weighted loss function and iteratively improves the path to minimize the loss.
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/ab5db75a-a53a-4d25-ba32-d81eb9125333)
 
 ## Frontend Development
 
