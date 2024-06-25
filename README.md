@@ -65,8 +65,8 @@ Develop a model to classify good and bad road curves using a loss function model
 - Path length
 - Time to traverse the intersection
 - Curvature radius
-![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/3e59397a-4839-4604-8669-727f944d9633)
-![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/7ba65cbd-6b55-4c3d-9d7a-2f92c4d7d460)
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/e12eb85c-4884-43ef-ba2d-ba93c05ce389)
+
 
 ### Optimizer Development
 
