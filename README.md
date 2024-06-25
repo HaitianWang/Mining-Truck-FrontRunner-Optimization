@@ -1,4 +1,4 @@
-![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/9cb9051d-24e7-4361-b93f-e2efa5eb4290)# Rio Tinto FrontRunner Optimization Project
+# Rio Tinto FrontRunner Optimization Project
 
 ## Overview
 
