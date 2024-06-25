@@ -96,6 +96,12 @@ Assign weights to parameters based on their impact on efficiency and safety:
 - Balanced Consideration: Path Length (0.33), Time Difference (0.33), Curvature Radius (0.34)
 ![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/df923bc7-17d5-4496-a766-99a8a4c204ca)
 
+### Truck Routes Data Analysis
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/4da68b63-bea6-4665-ba89-b84716be439f)
+
+### Truck Pass Intersection
+![image](https://github.com/HaitianWang/UWAYE-Hackathon-2024--RioTinto_BCG/assets/48538377/0a83da72-07c8-440e-bd33-9aa949043ba1)
+
 ## Optimization Model
 
 The optimization model uses a differential evolution algorithm to find the optimal road curve within the defined constraints. The model evaluates the quality of each path based on a weighted loss function and iteratively improves the path to minimize the loss.
