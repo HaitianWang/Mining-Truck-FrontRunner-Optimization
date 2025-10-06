@@ -1,8 +1,8 @@
-# Rio Tinto FrontRunner Optimization Project
+# Mining onsite software Optimization Project
 
 ## Overview
 
-This project focuses on optimizing the use of Rio Tinto's FrontRunner software for autonomous haul trucks. The primary goal is to enhance the efficiency of road curve drawing at intersections, particularly T-intersections, to reduce truck cycle time, increase productivity, and lower operational costs. The project involves developing a model to classify road curves, an optimizer to generate the best road curves, and a front-end application to integrate with the FrontRunner system.
+This project focuses on optimizing the use of mining onsite software for autonomous haul trucks. The primary goal is to enhance the efficiency of road curve drawing at intersections, particularly T-intersections, to reduce truck cycle time, increase productivity, and lower operational costs. The project involves developing a model to classify road curves, an optimizer to generate the best road curves, and a front-end application to integrate with the FrontRunner system.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ This project focuses on optimizing the use of Rio Tinto's FrontRunner software f
 
 ### Role of Haul Trucks
 
-Rio Tinto uses the FrontRunner software to manage autonomous haul truck fleets that transport iron ore through a complex network of roads from pits to the ore processing plant.
+Some mining company software to manage autonomous haul truck fleets that transport iron ore through a complex network of roads from pits to the ore processing plant.
 
 
 ### Use of FrontRunner Software
@@ -52,7 +52,7 @@ The hackathon focuses on three main tasks:
 
 1. **Build the Model**: Develop a model to determine what constitutes a good or bad curve based on the provided dataset.
 2. **Build the Optimizer**: Use data modeling techniques to optimize road curve generation at intersections, thereby reducing cycle time.
-3. **Build the Tech**: Create an application/system that integrates with Rio Tinto's FrontRunner system.
+3. **Build the Tech**: Create an application/system that integrates with mining onsite software system.
 
 ## Solution Approach
 
