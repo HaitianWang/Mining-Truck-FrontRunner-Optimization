@@ -115,9 +115,8 @@ Develop a front-end application to display the optimized road curves and facilit
 ## Usage
 
 1. Open the application in your web browser.
-2. Upload the dataset files (Intersections.csv and Truck_Movements.csv).
-3. View the optimized road curves and adjust as needed using the provided interface.
-4. Save and export the optimized curves for integration with the FrontRunner system.
+2. View the optimized road curves and adjust as needed using the provided interface.
+3. Save and export the optimized curves for integration with the FrontRunner system.
 
 ## License
 
